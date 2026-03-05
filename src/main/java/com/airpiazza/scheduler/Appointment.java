@@ -14,6 +14,7 @@ public class Appointment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    
     private String username;
     private LocalDateTime time;
     private int minutes;

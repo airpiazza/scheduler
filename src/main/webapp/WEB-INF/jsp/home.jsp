@@ -6,6 +6,8 @@
     <body>
         <h1>Schedule appointments with ease</h1>
         <p>Find the right time for your next appointment.</p>
-        <button>Schedule Appointment</button>
+        <button onclick="window.location.href='http://localhost:5173/'">
+            Schedule Appointment
+        </button>
     </body>
 </html>
